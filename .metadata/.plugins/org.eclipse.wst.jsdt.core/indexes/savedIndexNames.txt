@@ -1,7 +1,5 @@
-INDEX VERSION 1.3+D:\test_git\test_first\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-1458912979.index
-3966273131.index
-2070165779.index
-883734472.index
-3133518837.index
-1752846413.index
+INDEX VERSION 1.3+D:\test_git\test_first\test_first\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+978677584.index
+661745616.index
+3239565661.index
+1477245127.index
