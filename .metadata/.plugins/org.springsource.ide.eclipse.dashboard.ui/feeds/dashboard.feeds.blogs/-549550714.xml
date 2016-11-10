@@ -5,7 +5,70 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2016-11-09T00:58:00Z</updated>
+  <updated>2016-11-09T20:37:00Z</updated>
+  <entry>
+    <title>Spring Cloud Data Flow 1.1 RC1 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2016/11/09/spring-cloud-data-flow-1-1-rc1-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Mark Pollack</name>
+    </author>
+    <id>tag:spring.io,2016-11-09:2692</id>
+    <updated>2016-11-09T20:37:00Z</updated>
+    <content type="html">&lt;div class="paragraph"&gt;
+&lt;p&gt;On behalf of the team, I am pleased to announce the first release candidate of Spring Cloud Data Flow 1.1.  Follow the links in the &lt;a href="http://docs.spring.io/spring-cloud-dataflow/docs/1.1.0.RC1/reference/htmlsingle/#getting-started"&gt;getting started guide&lt;/a&gt; to download the local server implementation and shell to create Stream and Tasks.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The 1.1 RC1 release includes the following new features and improvements:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Builds upon Camden.SR2 release improvements&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://docs.spring.io/spring-cloud-dataflow/docs/1.1.0.RC1/reference/htmlsingle/#_ldap_transport_security"&gt;LDAP authentication&lt;/a&gt; is now supported with SSL&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Portable deployment properties for memory and cpu are in place for support across various runtime implementations&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Passing Java Options to the local JVM when launching application is now supported&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;UI Improvements&lt;/p&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;List pages now support sorting&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Server-side search support for stream and task list pages&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Content-assist for bulk task definitions including the support for incremental validations of task application properties&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add content assist support for tasks in the shell&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Thanks to the community for adding DB2 support for the TaskRepository&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://docs.spring.io/spring-cloud-dataflow/docs/1.1.0.RC1/reference/htmlsingle/#_spring_boot_admin"&gt;Documentation on how to use Spring Boot Admin&lt;/a&gt; to visualize server metrics&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Stay tuned for some more additions to the reference guide for stream monitoring as well as the upcoming release train of new stream application starters, now structured as a &lt;a href="https://github.com/spring-cloud-stream-app-starters"&gt;github organization&lt;/a&gt; with independent repositories for each application.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Review the &lt;a href="https://github.com/spring-cloud/spring-cloud-dataflow/milestone/9?closed=1"&gt;1.1.0.RC1 release marker&lt;/a&gt; to learn more about the incremental improvements.&lt;/p&gt;
+&lt;/div&gt;</content>
+  </entry>
   <entry>
     <title>Spring Tips: Spring Cloud Stream</title>
     <link rel="alternate" href="https://spring.io/blog/2016/11/09/spring-tips-spring-cloud-stream" />
@@ -31,6 +94,20 @@
 &lt;p&gt;Spring Boot 1.4.2 includes &lt;a href="https://github.com/spring-projects/spring-boot/milestone/73?closed=1"&gt;over 100 fixes, improvements and 3rd party dependency updates&lt;/a&gt;! Thanks to all that have contributed!&lt;/p&gt;
 &lt;p&gt;If you&amp;rsquo;re interested in helping out, check out the &lt;a href="https://github.com/spring-projects/spring-boot/labels/ideal-for-contribution"&gt;&amp;ldquo;ideal for contribution&amp;rdquo; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask at &lt;a href="http://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href="http://stackoverflow.com/tags/spring-boot"&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://projects.spring.io/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle"&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>CQRS and Event Sourcing with Jakub Pilimon</title>
+    <link rel="alternate" href="https://spring.io/blog/2016/11/08/cqrs-and-event-sourcing-with-jakub-pilimon" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2016-11-09:2691</id>
+    <updated>2016-11-08T17:33:00Z</updated>
+    <content type="html">&lt;p&gt;Google Hangout on Air recording.&lt;/p&gt;
+&lt;p&gt;Event sourced domain naturally leads to messaging infrastructure and CQRS based services. See how we can benefit from getting rid of typical relational database model replaced by events. See how events come along with projections and different read model. In this talk we are going to explore all of this backed by a real Spring Cloud Stream applications.&lt;/p&gt;
+&lt;p&gt;twitter: &lt;a href="https://twitter.com/JakubPilimon"&gt;https://twitter.com/JakubPilimon&lt;/a&gt;&lt;br/&gt;github: &lt;a href="https://github.com/pilloPl"&gt;https://github.com/pilloPl&lt;/a&gt;&lt;br/&gt;blog: &lt;a href="http://pillopl.github.io/"&gt;http://pillopl.github.io/&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/rhn-T9b_Mvs" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content>
   </entry>
   <entry>
     <title>Spring AMQP and Spring Integration Core &amp; Java DSL Maintenance Releases Available</title>
@@ -524,190 +601,5 @@ Issues&lt;/a&gt;, or via the comments section. You can also ping me
     <content type="html">&lt;p&gt;Speaker: &lt;a href="https://www.twitter.com/starbuxman"&gt;Josh Long&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Hi Spring fans! In this tip, we&amp;rsquo;ll quickly look at the Netflix Hystrix circuit breaker in Spring Cloud and the circuit breaker in Spring Retry &lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Kc7dDxn9cUg" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Cloud Pipelines 1.0.0.M2 Released</title>
-    <link rel="alternate" href="https://spring.io/blog/2016/10/26/spring-cloud-pipelines-1-0-0-m2-released" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Marcin Grzejszczak</name>
-    </author>
-    <id>tag:spring.io,2016-10-26:2669</id>
-    <updated>2016-10-26T21:10:43Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;On behalf of the Spring Cloud team it is my pleasure to announce a new milestone release of Spring Cloud Pipelines - &lt;code&gt;1.0.0.M2&lt;/code&gt;. Apart from some bug fixes it&amp;#8217;s providing an out of the box support for Gradle projects.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;In order for the Gradle project to work out of the box the following opinionated decisions were taken:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="ulist"&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;usage of Gradlew Wrapper&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;custom &lt;code&gt;deploy&lt;/code&gt; task is used for artifacts deployment&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;running smoke tests on a deployed app via the custom &lt;code&gt;smoke&lt;/code&gt; task&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;running end to end tests on a deployed app via the custom &lt;code&gt;e2e&lt;/code&gt; task&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;custom &lt;code&gt;groupId&lt;/code&gt; task to retrieve group id&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;custom &lt;code&gt;artifactId&lt;/code&gt; task to retrieve artifact id&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;custom &lt;code&gt;currentVersion&lt;/code&gt; task to retrieve the current version&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;custom &lt;code&gt;stubIds&lt;/code&gt; task to retrieve list of collaborators for which stubs should be downloaded&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Example implementation of these tasks can be found &lt;a href="https://github.com/spring-cloud-samples/github-analytics/blob/master/gradle/pipeline.gradle"&gt;here&lt;/a&gt;. We&amp;#8217;re pasting its contents below:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-groovy" data-lang="groovy"&gt;test {
-    description = "Task to run unit and integration tests"
-    testLogging {
-        exceptionFormat = 'full'
-    }
-    jvmArgs = systemPropsFromGradle()
-    exclude 'smoke/**'
-    exclude 'e2e/**'
-}
-
-task smoke(type: Test) {
-    description = "Task to run smoke tests"
-    testLogging {
-        exceptionFormat = 'full'
-    }
-    jvmArgs = systemPropsFromGradle()
-    include 'smoke/**'
-}
-
-task e2e(type: Test) {
-    description = "Task to run end to end tests"
-    testLogging {
-        exceptionFormat = 'full'
-    }
-    jvmArgs = systemPropsFromGradle()
-    include 'e2e/**'
-}
-
-task deploy(dependsOn: 'publish') {
-    description = "Abstraction over publishing artifacts to Artifactory / Nexus"
-}
-
-task groupId &amp;lt;&amp;lt; {
-    println projectGroupId
-}
-groupId.description = "Task to retrieve Group ID"
-
-task artifactId &amp;lt;&amp;lt; {
-    println projectArtifactId
-}
-artifactId.description = "Task to retrieve Artifact ID"
-
-task currentVersion &amp;lt;&amp;lt; {
-    println projectVersion
-}
-currentVersion.description = "Task to retrieve version"
-
-task stubIds &amp;lt;&amp;lt; {
-    println stubrunnerIds
-}
-stubIds.description = "Task to retrieve Stub Runner IDS"
-
-[test, smoke, e2e, deploy, groupId, artifactId, currentVersion, stubIds].each {
-    it.group = "Pipeline"
-}
-
-private List&amp;lt;String&amp;gt; systemPropsFromGradle() {
-    return project.gradle.startParameter.systemPropertiesArgs.entrySet().collect { "-D${it.key}=${it.value}" }
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Unlike most of Spring projects this one is not available at any repository since it¡¯s not a library, but instead it is available as a github repo for you to download and use as template for creating a deployment pipeline.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Please check out any of these links for more information or to contact us:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="ulist"&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="http://cloud.spring.io/spring-cloud-pipelines/"&gt;Project page&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="http://cloud.spring.io/spring-cloud-pipelines/spring-cloud-pipelines.html"&gt;Project documentation&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="http://cloud.spring.io/spring-cloud-pipelines/spring-cloud-pipelines.html#concourse"&gt;Concourse opinionated pipeline setup&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="http://concourse.ci"&gt;Concourse Website&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="http://cloud.spring.io/spring-cloud-pipelines/spring-cloud-pipelines.html#jenkins"&gt;Jenkins opinionated pipeline setup&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/jenkinsci/job-dsl-plugin/wiki"&gt;Jenkins Job Dsl Plugin&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://gitter.im/spring-cloud/spring-cloud-pipelines"&gt;Spring Cloud Pipelines Gitter&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud/spring-cloud-pipelines"&gt;Spring Cloud Pipelines GitHub page&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring LDAP 2.2.0 Released</title>
-    <link rel="alternate" href="https://spring.io/blog/2016/10/25/spring-ldap-2-2-0-released" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Rob Winch</name>
-    </author>
-    <id>tag:spring.io,2016-10-25:2667</id>
-    <updated>2016-10-25T14:23:11Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;On behalf of the community, I am pleased to announce the release of Spring LDAP 2.2.0.RELEASE.&lt;/p&gt;
-&lt;/div&gt;
-&lt;h1 id="what-s-new-in-spring-ldap-2-2" class="sect0"&gt;&lt;a class="anchor" href="#what-s-new-in-spring-ldap-2-2"&gt;&lt;/a&gt;What¡¯s New in Spring LDAP 2.2&lt;/h1&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;You can find highlights of what&amp;#8217;s new in the &lt;a href="http://docs.spring.io/spring-ldap/docs/2.2.0.RELEASE/reference/#what-s-new-in-2-2"&gt;What¡¯s New in Spring LDAP 2.2&lt;/a&gt; section of the reference.&lt;/p&gt;
-&lt;/div&gt;
-&lt;h1 id="contributions" class="sect0"&gt;&lt;a class="anchor" href="#contributions"&gt;&lt;/a&gt;Contributions&lt;/h1&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Without the community we couldn&amp;#8217;t be the successful project we are today. I&amp;#8217;d like to thank everyone that created issues &amp;amp; provided feedback.&lt;/p&gt;
-&lt;/div&gt;
-&lt;h1 id="feedback-please" class="sect0"&gt;&lt;a class="anchor" href="#feedback-please"&gt;&lt;/a&gt;Feedback Please&lt;/h1&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;If you have feedback on this release, I encourage you to reach out via
-&lt;a href="http://stackoverflow.com/questions/tagged/spring-ldap"&gt;StackOverflow&lt;/a&gt;,
-&lt;a href="https://github.com/spring-projects/spring-ldap/issues"&gt;GitHub
-Issues&lt;/a&gt;, or via the comments section. You can also ping me
-&lt;a href="https://twitter.com/rob_winch"&gt;@rob_winch&lt;/a&gt; or Joe
-&lt;a href="https://twitter.com/joe_grandja"&gt;@joe_grandja&lt;/a&gt; on Twitter.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Of course the best feedback comes in the form of
-&lt;a href="https://github.com/spring-projects/spring-ldap/blob/master/CONTRIBUTING.md"&gt;contributions&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="http://projects.spring.io/spring-ldap/"&gt;Project Site&lt;/a&gt; |
-&lt;a href="http://docs.spring.io/spring-ldap/site/docs/2.2.0.RELEASE/reference/htmlsingle/"&gt;Reference&lt;/a&gt;
-|
-&lt;a href="http://docs.spring.io/spring-ldap/site/docs/2.2.0.RELEASE/guides/html5/"&gt;Guides&lt;/a&gt;
-| &lt;a href="http://stackoverflow.com/questions/tagged/spring-ldap"&gt;Help&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;</content>
   </entry>
 </feed>
